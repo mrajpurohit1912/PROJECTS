@@ -17,15 +17,15 @@ ml_dl_projects/
 ├── README.md                  # Repo documentation
 ├── Data                       # Data for projects
 
-## Clone the Repository
+## 📥 Clone the Repository
 
 To clone the entire repo:
 ```bash
 git clone https://github.com/your-username/ml_dl_projects.git
 cd ml_dl_projects
+```
 
-
-## Clone a Specific Project
+## 📥 Clone a Specific Project
 
 To clone only one folder (e.g., `1_customer_churning`), use sparse checkout:
 
@@ -35,11 +35,8 @@ cd ml_dl_projects
 git sparse-checkout init --cone
 git sparse-checkout set 1_customer_churning
 
-
-
----
-
-## Running a Project
+```
+## ▶️ Running a Project
 
 Each project is standalone. Example:
 
@@ -59,13 +56,9 @@ poetry install
 # Run
 python main.py
 
+```
 
-
----
-
-### Notes / Extra Info
-```markdown
-## Notes
+### 📝 Notes / Extra Info
 
 - Use separate virtual environments for each project.  
 - Each project may contain datasets in the `data/` folder and notebooks in `notebooks/`.  
