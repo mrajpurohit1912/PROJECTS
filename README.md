@@ -1,7 +1,6 @@
 # ml-dl-playground Repository
 
-This repository contains multiple Machine Learning and Deep Learning projects.  
-Each project is independent and has its own `pyproject.toml` file for dependencies.
+A hands-on playground for Machine Learning and Deep Learning projects. Each project is standalone, with its own environment, datasets, and notebooks for experimentation.
 
 ## 📂 Repository Structure
 ```bash
@@ -22,7 +21,7 @@ ml_dl_projects/
 
 To clone the entire repo:
 ```bash
-git clone https://github.com/your-username/ml_dl_projects.git
+git clone https://github.com/mrajpurohit1912/ml-dl-playground.git
 cd ml_dl_projects
 ```
 
@@ -31,7 +30,7 @@ cd ml_dl_projects
 To clone only one folder (e.g., `1_customer_churning`), use sparse checkout:
 
 ```bash
-git clone --no-checkout https://github.com/your-username/ml_dl_projects.git
+git clone --no-checkout https://github.com/mrajpurohit1912/ml-dl-playground.git
 cd ml_dl_projects
 git sparse-checkout init --cone
 git sparse-checkout set 1_customer_churning
