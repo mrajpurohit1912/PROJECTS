@@ -4,7 +4,7 @@ This repository contains multiple Machine Learning and Deep Learning projects.
 Each project is independent and has its own `pyproject.toml` file for dependencies.
 
 ## 📂 Repository Structure
-
+```bash
 ml_dl_projects/
 │── 1_customer_churning/       # Project 1
 │   ├── notebooks/             # Jupyter notebooks
@@ -16,6 +16,7 @@ ml_dl_projects/
 │
 ├── README.md                  # Repo documentation
 ├── Data                       # Data for projects
+```
 
 ## 📥 Clone the Repository
 
