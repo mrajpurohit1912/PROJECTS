@@ -1,4 +1,4 @@
-# ML/DL Projects Repository
+# ml-dl-playground Repository
 
 This repository contains multiple Machine Learning and Deep Learning projects.  
 Each project is independent and has its own `pyproject.toml` file for dependencies.
